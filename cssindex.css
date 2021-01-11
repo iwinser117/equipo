@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 96%;
+    margin: auto;
+    background: #9fa4a834;
+}
+header .header {
+    display: flex;
+    background: #c7dbeb34;
+}
+header .header .title {
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d53;
+}
+header .header .logo {
+    width: 30%;
+}
+nav {
+    width:96%;
+    position: absolute;
+    /* display: block; */
+}
+nav li {
+    list-style: none;   
+}
+.nav .desple  {
+    background: #73a075f5;
+    text-transform: capitalize;
+    justify-content: space-around;
+    font-size: 1.2em;
+    display: flex;
+}
+.nav .submenu {
+    display: none;
+}
+.nav .desple  a {
+    color: #11088d;
+    text-decoration: none;
+    position: relative;
+}
+.nav .desple a:hover {
+    color: #000005;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.imgcon {
+    width: 20%;
+}
+.imgcono {
+    width: 20%;
+}
+.nav .desple li:hover .submenu {
+    width: 5em;
+    background: #75c99f;
+    display: block;
+    position: absolute;
+}
+.nav .desple li .submenu  a {
+    display: inline-block;
+    position: relative;
+}
+.container .buscar {
+    text-align: center;
+    font-size: 1.3em;   
+    margin-top: 1em;
+}
